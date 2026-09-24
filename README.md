@@ -69,18 +69,15 @@ I designed three intuitive alert rules and evaluated their precision vs. capture
 
 ## 💰 The Bottom Line: Financial Scenario Analysis
 
-In risk operations, technical metrics don't matter unless they translate into capital:
-+--------------------------------------------------------------------------+
-| OPERATIONAL FINANCIAL AUDIT                                              |
-+--------------------------------------------------------------------------+
-| Total Fraud Exposure at Risk:                          $58,591.39        |
-| ──────────────────────────────────────────────────────────────────────── |
-| [+] Fraud Capital Directly Protected (True Positives): $31,953.74 (54.5%)|
-| [-] Fraud Capital Missed (False Negatives):            $26,637.65 (45.5%)|
-| [-] Operational Review Cost (Scenario: 270 FP * $3):$   810.00        |
-| ──────────────────────────────────────────────────────────────────────── |
-| [=] ESTIMATED NET SAVINGS DELIVERED:                   $31,143.74        |
-+--------------------------------------------------------------------------+
+In risk operations, technical metrics do not matter unless they translate into preserved capital.
+
+| Metric | Financial Volume | % of Exposure / Share |
+| :--- | :--- | :--- |
+| **Total Fraud Exposure at Risk** | **$58,591.39** | 100.0% |
+| **[+] Fraud Capital Protected (True Positives)** | **$31,953.74** | **54.5%** |
+| **[-] Fraud Capital Missed (False Negatives)** | $26,637.65 | 45.5% |
+| **[-] Operational Review Overhead** (270 FP × $3.00) | $810.00 | — |
+| **[=] ESTIMATED NET BENEFIT DELIVERED** | **$31,143.74** | **ROI: ~3,845%** |
 
 ### The Strategic Lesson:
 While the rule engine intercepted **71% of fraud incidents**, it captured **54.5% of the dollar volume**.  
