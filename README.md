@@ -5,6 +5,7 @@
 [![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![NumPy](https://img.shields.io/badge/NumPy-Vectorized_Math-013243?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Seaborn](https://img.shields.io/badge/Seaborn-Visual_Storytelling-4c72b0?style=flat)](https://seaborn.pydata.org/)
+[![Power BI](https://img.shields.io/badge/Power_BI-Dashboard-F2C811?style=flat&logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
 
 ---
 
@@ -86,14 +87,16 @@ This gap reveals that the remaining 29% of uncaught fraud contained larger, soph
 ---
 ## 📊 Operational Risk Dashboard (Power BI)
 
-To bridge data analysis with daily risk operations, I engineered an operational monitoring dashboard in Power BI. It provides the Fraud Operations team with live tracking of queue volume, rule saturation, and net financial impact.
+> **"Data without an operational workflow is just noise."**  
+> To operationalize these findings, I built an interactive triage console in Power BI that connects rule thresholds with day-to-day risk management.
 
-![Risk Operations Dashboard](images/dashboard.PNG)
+![Operational Risk Dashboard](images/dashboard.png)
 
-### Core Dashboard Capabilities:
-* **Alert Volume & Queue Ingestion:** Tracks hourly transaction capacity against active heuristic rule alerts.
-* **Rule Saturation Monitoring:** Visualizes the True Positive vs. False Positive footprint for each rule layer to identify operational fatigue.
-* **Financial Ledger & Scenario Impact:** Real-time visibility into prevented chargeback exposure versus review operational overhead.
+### 💡 Why This Matters for Risk Operations:
+* **Automated Triage & SLA Protection:** High-volume alerts are routed straight to silent 3DS challenges, keeping investigator queues unclogged for complex cases.
+* **Alert Fatigue Control:** Real-time tracking of false-positive saturation prevents alert fatigue before operational backlogs breach SLAs.
+* **Executive Visibility:** At-a-glance financial ledger balancing net protected capital ($31.9K) against operational review overhead ($810).
+
 ## 🔭 Next Steps for the Risk Team
 
 * [ ] **Temporal Backtesting:** Run the rule engine on out-of-time transaction windows to track threshold decay and evasion drift.
