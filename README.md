@@ -51,6 +51,7 @@ My goal was to investigate 283k+ transactions, uncover the actual operational pl
 * **Why it matters:** These features capture extreme operational deviations from typical cardholder behavior.
 * **The Business Decision:** Calibrated empirical cutoff boundaries around these specific levers to build deterministic, explainable alert rules that comply with regulatory audit standards.
 
+![Empirical Feature Separation](images/feature_distributions.png)
 ---
 
 ## 🛠️ The 3-Tier Alert Engine: Performance & Routing
