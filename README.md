@@ -88,7 +88,7 @@ This gap reveals that the remaining 29% of uncaught fraud contained larger, soph
 
 To bridge data analysis with daily risk operations, I engineered an operational monitoring dashboard in Power BI. It provides the Fraud Operations team with live tracking of queue volume, rule saturation, and net financial impact.
 
-![Operational Risk Dashboard](images/dashboard.png)
+![Risk Operations Dashboard](images/dashboard.PNG)
 
 ### Core Dashboard Capabilities:
 * **Alert Volume & Queue Ingestion:** Tracks hourly transaction capacity against active heuristic rule alerts.
