@@ -90,7 +90,7 @@ This gap reveals that the remaining 29% of uncaught fraud contained larger, soph
 > **"Data without an operational workflow is just noise."**  
 > To operationalize these findings, I built an interactive triage console in Power BI that connects rule thresholds with day-to-day risk management.
 
-![Operational Risk Dashboard](images/dashboard.png)
+![Operational Risk Dashboard](images/dashboard.PNG)
 
 ### 💡 Why This Matters for Risk Operations:
 * **Automated Triage & SLA Protection:** High-volume alerts are routed straight to silent 3DS challenges, keeping investigator queues unclogged for complex cases.
