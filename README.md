@@ -14,8 +14,7 @@
 When an unauthorized transaction goes through, the bank loses twice: first to the chargeback refund, and second to customer trust. But blocking everything indiscriminately is worse—it alienates honest users and buries support teams in angry calls.
 
 **The Mission:**  
-Instead of blindly throwing a black-box ML model at an imbalanced Kaggle dataset, I took the perspective of an in-house **Fraud Risk Analyst**.  
-My goal was to investigate 283k+ transactions, uncover the actual operational playbook used by fraudsters, and design a transparent, **heuristic rule engine** that cuts fraud losses without overwhelming the fraud operations team.
+In financial risk operations, detection systems must be explainable, operationally viable, and auditable. My objective as a Data Analyst was to conduct end-to-end behavioral forensics on 283k+ transactions, identify key empirical fraud signals, and translate those insights into a deterministic alert engine paired with real-time operational monitoring.
 
 ---
 
